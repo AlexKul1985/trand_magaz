@@ -1,0 +1,22 @@
+{
+  "name": "trend_shops",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "alexkul1985 <alexkul1985sanshoy@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css.less": "^3.0.3",
+    "slick-carousel": "^1.6.0",
+    "bxslider-4": "dw-bxslider-4#^4.2.12"
+  }
+}

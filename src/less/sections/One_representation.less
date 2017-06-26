@@ -1,0 +1,95 @@
+.One-representation {
+	padding-top:68px;
+	height:730px;
+	background: #463d73 url(../image/bg-map.png) center no-repeat;
+	text-align:center;
+	overflow: hidden;
+	
+	
+	.text-title--white {
+		color:#fff;
+		&::after {
+			background:#fff;
+		}
+		
+	}
+	.wrapper {
+		max-width:1200px;
+		padding:0 10px;
+		margin:0 auto;
+
+		.representation-wrap {
+			
+
+
+			.representation-wrap__man {
+				float:left;
+				position:relative;
+				left:90px;
+				top:25px;
+		}
+			.form-wrap--representation {
+				float:right;
+				background:#fff;
+				padding:63px 40px 65px;
+				margin-right:105px;
+				margin-top:60px;
+
+				.form--representation {
+					display:none;
+					span {
+					display:block;
+					margin-bottom:47px;
+					font-family:@MSC_500;
+					font-size:1.5rem;
+					color:#333;
+
+
+				}
+				.form__text {
+					padding-top:16px;
+					padding-bottom:16px;
+
+					border:2px solid #e1e1e1;
+				}
+
+				}
+				.sended--representation {
+					display:block;
+					&::before {
+						display:none;
+					}
+
+					.message--representation {
+						font-size:1.5rem;
+						&::after{
+							content:"";
+							display:inline-block;
+							.sprite(@s-ok-send);
+							margin-top: 34px;
+							margin-bottom: 12px;
+						}
+
+					}
+
+
+
+					.message {
+
+						font-size:1.125rem;
+						color:#333;
+					}
+				}
+
+
+				
+
+
+		}
+
+
+		}
+		
+	}
+
+}
