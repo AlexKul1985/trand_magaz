@@ -25,7 +25,7 @@ const config = {
         less: '/less/*.*',
         css:'/css/',
         jsPre:'/js/',
-        jsLib:['./src/libs/gradient/lib.gradient.js','./src/js/mysripts/mygradient.js','./src/libs/jquery/jquery.js','./src/libs/slick/slick.js','./src/js/mysripts/main.js'],// Установка порядка конкатенации JS файлов ,'./src/js/mysripts/equalHeight/equal-height.js'
+        jsLib:['./src/libs/gradient/lib.gradient.js','./src/js/mysripts/mygradient.js','./src/libs/jquery/jquery.js','./src/libs/slick/slick.js','./src/js/mysripts/main.js','./src/js/mysripts/equalHeight/equal-height.js'],// Установка порядка конкатенации JS файлов
         img:'/image/*.*',
         fonts:'/fonts/**/*.*',
         sprite:'/image/sprite/',

@@ -21,13 +21,25 @@
 			max-width:none;
 			margin:0;
 			background:transparent;
+			@media screen and (max-width:980px) {
+							max-width:381px;
+							margin: 0 auto;
+						}
 			
 			
 			.form {
+				@media screen and (max-width:980px) {
+							display:inline-block;
+						}
 				
 				
 				input {
-					margin-right:18px;
+					max-width:302px;
+					
+					@media screen and (max-width:980px) {
+							display:block;
+							margin-right:0px;
+						}
 					&:last-child {
 						margin-right:0;
 					}
@@ -36,7 +48,7 @@
 				.form__text {
 					padding-top:15px;
 					padding-bottom:15px;
-					max-width:302px;
+					
 					
 			}
 						

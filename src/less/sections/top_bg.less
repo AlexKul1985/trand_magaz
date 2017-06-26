@@ -4,7 +4,7 @@
 	background: url(../image/top-bg.jpg) center center  no-repeat ;
 	background-size: cover;
 	text-align:center;
-	
+
 	.lozung {
 		display:inline-block;
 		margin-top:230px;
@@ -29,21 +29,7 @@
 
 
 }
-.g_btn {
-			width:100%;
-			padding:16px 0px;
-			color:#fff;
-			font-family:@MSC_500;
-			font-weight:normal;
-			font-size:1.125rem;
-			border-radius: 42px;
-			background: linear-gradient(to right, #717aff 0%,#dd77ff 100%);
-			
-			box-shadow: 0 10px 30px rgba(2,2,2,.35);
-			border:none;
-			/*box-shadow: 0 10px 30px rgba(2,2,2,.35), inset -100px 0px 92px  #dd77ff,inset 240px 0px 102px #717aff;*/
-			cursor:pointer;
-		}
+
 
 	
       	.form-wrap {
@@ -54,6 +40,9 @@
 	padding:40px 40px 37px;
 	border-radius: 42px;
 	background:rgba(255,255,255,0.2);
+	@media screen and (max-width:410px) {
+					padding:40px 25px 37px;
+				}
 	.form {
 		display:block;
 		&__text {
@@ -132,3 +121,18 @@
 
 
 	} 
+	.g_btn {
+			width:100%;
+			padding:16px 0px;
+			color:#fff;
+			font-family:@MSC_500;
+			font-weight:normal;
+			font-size:1.125rem;
+			border-radius: 42px;
+			background: linear-gradient(to right, #717aff 0%,#dd77ff 100%);
+			
+			box-shadow: 0 10px 30px rgba(2,2,2,.35);
+			border:none;
+			/*box-shadow: 0 10px 30px rgba(2,2,2,.35), inset -100px 0px 92px  #dd77ff,inset 240px 0px 102px #717aff;*/
+			cursor:pointer;
+		}
